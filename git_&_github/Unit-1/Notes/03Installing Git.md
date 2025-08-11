@@ -1,4 +1,4 @@
-# 🛠 Installing Git (Windows, macOS, Linux) – CodingGita Hostel Guide  
+# 🛠 Installing Git (Windows, macOS, Linux) –
 
 Before we can start working on our hostel projects with **Git & GitHub**, we first need to **install Git** on our computers.  
 
@@ -134,5 +134,5 @@ after installation to confirm success.
 
 Use YouTube tutorials if you get stuck — they’re beginner-friendly and easy to follow.
 
-💡 Next Step: We’ll configure Git with your username and email so it knows who is making changes in the hostel projects for CodingGita.
+💡 Next Step: We’ll configure Git with your username and email so it knows who is making changes in the projects for CodingGita.
    
