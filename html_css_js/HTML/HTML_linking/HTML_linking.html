@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Links Tutorial</title>
+
+    <!-- Internal CSS for link styling -->
+    <style>
+        /* Basic link colors */
+        a:link {
+            color: green; /* Unvisited link */
+            text-decoration: none;
+        }
+        a:visited {
+            color: purple; /* Visited link */
+        }
+        a:hover {
+            color: red; /* Hover effect */
+            text-decoration: underline;
+        }
+        a:active {
+            color: blue; /* Active link */
+        }
+
+        /* Bookmark-specific link style */
+        a.bookmark-link {
+            color: #0066cc;
+        }
+        a.bookmark-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Frame demo styling */
+        iframe {
+            width: 100%;
+            height: 150px;
+            border: 1px solid #aaa;
+        }
+    </style>
+</head>
+<body id="top">
+    <h1>HTML Links - Complete Tutorial</h1>
+    <hr>
+
+    <!-- 1. BASIC LINKS -->
+    <h2>1. Basic HTML Links</h2>
+    <p>Links are created using the <code>&lt;a&gt;</code> tag with the <code>href</code> attribute.</p>
+
+    <!-- Basic link -->
+    <p><a href="https://codinggita.com">Visit Coding Gita</a></p>
+
+    <!-- Link with title -->
+    <p><a href="https://codinggita.com" title="Click to learn more about Coding Gita">Visit Coding Gita (with title)</a></p>
+
+    <!-- Download link -->
+    <p><a href="brochure.pdf" download title="Download Coding Gita Brochure">Download Brochure</a></p>
+
+    <hr>
+
+    <!-- 2. TARGET ATTRIBUTE -->
+    <h2>2. The <code>target</code> Attribute</h2>
+    <p>The <code>target</code> attribute specifies where the linked page will open.</p>
+
+    <!-- _self example -->
+    <p><a href="https://codinggita.com/courses" target="_self">Open Courses in Same Tab (_self)</a></p>
+
+    <!-- _blank example -->
+    <p><a href="https://swaminarayanuniversity.ac.in" target="_blank">Open University in New Tab (_blank)</a></p>
+
+    <!-- _parent example (demo only, works inside framesets) -->
+    <p><em>_parent</em> opens link in parent frame (works only if page is inside a frameset).</p>
+
+    <!-- _top example (demo only) -->
+    <p><em>_top</em> opens link in full window, breaking out of frames.</p>
+
+    <!-- Custom frame example -->
+    <iframe name="content-frame" src="about:blank"></iframe>
+    <p><a href="https://codinggita.com" target="content-frame">Load Coding Gita inside the frame</a></p>
+
+    <hr>
+
+    <!-- 3. LINK COLORS -->
+    <h2>3. Link Colors with CSS</h2>
+    <p>We can style links using pseudo-classes: <code>:link</code>, <code>:visited</code>, <code>:hover</code>, and <code>:active</code>.</p>
+    <p>Example links:</p>
+    
+        <a href="https://codinggita.com" target="_blank">Coding Gita Workshops</a>
+        <a href="https://swaminarayanuniversity.ac.in" target="_self">SwamiNarayan University Programs</a>
+    
+
+    <hr>
+
+    <!-- 4. BOOKMARKS -->
+    <h2>4. Bookmarks (Internal Links)</h2>
+    <p>Click a link to jump to a specific section of the same page.</p>
+
+    <!-- Bookmark navigation -->
+    <p>Jump to: 
+        <a class="bookmark-link" href="#workshops" target="_self">Workshops</a> | 
+        <a class="bookmark-link" href="#programs" target="_self">Programs</a>
+    </p>
+
+    <!-- Sections for bookmarks -->
+    <h3 id="workshops">Coding Gita Workshops</h3>
+    <p>Practical sessions on Python, JavaScript, and more.</p>
+
+    <h3 id="programs">SwamiNarayan University Programs</h3>
+    <p>Degrees in Computer Science, AI, and Data Science.</p>
+
+    <!-- Back to top link -->
+    <p><a class="bookmark-link" href="#top" target="_self">Back to Top</a></p>
+
+</body>
+</html>
 
