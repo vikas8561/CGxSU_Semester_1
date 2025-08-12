@@ -1,3 +1,112 @@
+# HTML `class` and `id` Attributes
+
+The HTML `class` and `id` attributes are global attributes used to identify and style elements in a webpage. They are primarily used with CSS and JavaScript to apply styles or manipulate elements. The `class` attribute allows multiple elements to share the same identifier, while the `id` attribute uniquely identifies a single element. Below is an explanation of these attributes, their differences, and examples.
+
+## 1. `class` Attribute
+The `class` attribute assigns one or more class names to an element, enabling shared styling or JavaScript functionality across multiple elements. Multiple classes can be applied to a single element, separated by spaces.
+
+- **Purpose**: Groups elements for consistent styling or scripting.
+- **Characteristics**:
+  - Can be used on multiple elements.
+  - Multiple classes can be assigned to one element (e.g., `class="class1 class2"`).
+  - Case-sensitive.
+- **Example**:
+  ```html
+  <style>
+    .highlight {
+      background-color: #e6f3ff;
+      padding: 10px;
+    }
+    .text-blue {
+      color: blue;
+    }
+  </style>
+  <p class="highlight">Coding Gita offers practical coding workshops.</p>
+  <p class="highlight text-blue">SwamiNarayan University provides tech degrees.</p>
+  ```
+  - The first `<p>` has a light blue background and padding.
+  - The second `<p>` has the same background and padding, plus blue text, as it uses both `highlight` and `text-blue` classes.
+
+## 2. `id` Attribute
+The `id` attribute assigns a unique identifier to a single element on a page, used for specific styling, JavaScript manipulation, or linking within the page (e.g., anchor links). Each `id` must be unique within the HTML document.
+
+- **Purpose**: Uniquely identifies an element for styling, scripting, or linking.
+- **Characteristics**:
+  - Must be unique within the page.
+  - Case-sensitive.
+  - Often used with the `#` selector in CSS or for JavaScript `getElementById`.
+- **Example**:
+  ```html
+  <style>
+    #main-heading {
+      color: #0066cc;
+      text-align: center;
+      font-family: Verdana, sans-serif;
+    }
+  </style>
+  <h1 id="main-heading">Welcome to Coding Gita</h1>
+  ```
+  The `<h1>` element is styled with a blue color, centered text, and Verdana font, uniquely identified by the `main-heading` ID.
+
+## Difference Between `class` and `id`
+The following table summarizes the key differences between the `class` and `id` attributes:
+
+| Feature                | `class` Attribute                              | `id` Attribute                                 |
+|------------------------|-----------------------------------------------|-----------------------------------------------|
+| **Purpose**            | Groups multiple elements for shared styling or behavior | Uniquely identifies a single element |
+| **Uniqueness**         | Can be used on multiple elements              | Must be unique within the HTML document       |
+| **Multiple Usage**     | Multiple classes can be applied to one element (e.g., `class="class1 class2"`) | Only one `id` per element, and one `id` value per page |
+| **CSS Selector**       | Uses `.` (e.g., `.highlight`)                 | Uses `#` (e.g., `#main-heading`)              |
+| **JavaScript Access**  | Accessed via `getElementsByClassName` or `querySelectorAll` | Accessed via `getElementById` or `querySelector` |
+| **Use Case**           | Styling or scripting multiple elements (e.g., all course descriptions) | Styling, scripting, or linking to a specific element (e.g., a unique header) |
+| **Example**            | `<p class="highlight">Text</p>`               | `<h1 id="main-heading">Text</h1>`             |
+
+## Combining `class` and `id`
+Both `class` and `id` can be used on the same element for different purposes. For example, a `class` can apply shared styles, while an `id` can target the element for unique styling or JavaScript functionality.
+
+### Combined Example
+```html
+<head>
+  <style>
+    .course-info {
+      font-size: 16px;
+      padding: 15px;
+      background-color: #f0f0f0;
+    }
+    #python-course {
+      border: 2px solid green;
+      margin: 20px;
+    }
+    #ai-lab {
+      border: 2px dashed purple;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h2 id="python-course" class="course-info">Coding Gita’s Python Workshop</h2>
+  <p class="course-info">Learn Python with hands-on projects.</p>
+  <h2 id="ai-lab" class="course-info">SwamiNarayan University’s AI Research Lab</h2>
+</body>
+```
+This example demonstrates:
+- The `course-info` class applies a 16-pixel font size, 15-pixel padding, and light grey background to both `<h2>` elements and the `<p>` element.
+- The `python-course` ID adds a green border and 20-pixel margin to the first `<h2>`.
+- The `ai-lab` ID adds a dashed purple border and centered text to the second `<h2>`.
+
+## Practical Usage Notes
+- **Class vs. ID**:
+  - Use `class` for styling multiple elements with shared characteristics (e.g., all course descriptions).
+  - Use `id` for unique elements, such as a specific heading or section, or for JavaScript targeting.
+- **Best Practices**:
+  - Avoid overusing `id` for styling; prefer `class` for reusable styles.
+  - Ensure `id` values are unique to avoid conflicts in CSS or JavaScript.
+  - Use meaningful names (e.g., `course-info` instead of `style1`) for clarity.
+
+## Summary
+The `class` attribute enables shared styling or behavior across multiple elements, while the `id` attribute uniquely identifies a single element for styling, scripting, or linking. The table above highlights their differences, and the examples.
+
+
 # CSS Properties and Types of CSS
 
 CSS (Cascading Style Sheets) is used to style HTML elements, controlling their appearance and layout on a webpage. CSS can be applied in three primary ways: inline, internal, and external. This document explains common CSS properties, inspired by W3Schools' documentation, and details the types of CSS, with examples tailored to Coding Gita and SwamiNarayan University.
