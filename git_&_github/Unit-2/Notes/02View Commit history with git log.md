@@ -124,10 +124,3 @@ git log --pretty=format:"%h - %an: %s"
 
 ---
 
-## 🚀 Next Steps
-
-If you want, I'll prepare **Topic 4: Understanding Branching & Merging** in the same polished README style (with hostel examples and tutorial links).
-
----
-
-*This guide is part of the CodingGita Hostel Project - helping developers master Git fundamentals through real-world examples.*
