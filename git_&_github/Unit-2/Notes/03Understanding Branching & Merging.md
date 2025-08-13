@@ -1,4 +1,4 @@
-# 🌿 Understanding Branching & Merging – CodingGita Hostel Guide
+# 🌿 Understanding Branching & Merging – CodingGita guide
 
 ## 📌 Introduction
 
