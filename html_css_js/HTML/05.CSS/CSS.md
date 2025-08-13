@@ -172,7 +172,7 @@ Below are commonly used CSS properties, as referenced from W3Schools, applied us
 7. **margin**: Adds space outside the element’s borders.
 8. **border**: Defines the border around an element.
 
-### Examples with Coding Gita and SwamiNarayan University
+### Examples
 
 #### 1. Text Color (`color`)
 ```html
