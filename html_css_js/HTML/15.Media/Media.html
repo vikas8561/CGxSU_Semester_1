@@ -1,1 +1,179 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio and Video in HTML</title>
+</head>
+<body>
+  <h1>Using Audio and Video Media in HTML</h1>
+
+  <!-- ================= AUDIO SECTION ================= -->
+  <h2>Audio Examples</h2>
+
+  <!-- src attribute: directly specify audio file -->
+  <audio src="podcast-episode.mp3"></audio>
+
+  <!-- controls attribute: show play, pause, volume UI -->
+  <audio controls>
+    <source src="background-score.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- autoplay + muted: start automatically, muted for browser policy -->
+  <audio autoplay muted>
+    <source src="welcome-sound.ogg" type="audio/ogg">
+  </audio>
+
+  <!-- loop attribute: repeat audio endlessly -->
+  <audio controls loop>
+    <source src="ambient-loop.wav" type="audio/wav">
+  </audio>
+
+  <!-- muted attribute: audio starts muted -->
+  <audio controls muted>
+    <source src="intro-music.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- preload attribute: only load metadata initially -->
+  <audio controls preload="metadata">
+    <source src="lecture-recording.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- crossorigin attribute: fetch audio from external domain securely -->
+  <audio controls crossorigin="anonymous">
+    <source src="https://example.com/streamed-audio.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- mediagroup attribute: sync with other media (limited support) -->
+  <audio controls mediagroup="sync-audio">
+    <source src="narration.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- ================= VIDEO SECTION ================= -->
+  <h2>Video Examples</h2>
+
+  <!-- src attribute: directly specify video file -->
+  <video src="intro-video.mp4"></video>
+
+  <!-- controls attribute: show play, pause, volume UI -->
+  <video controls>
+    <source src="tutorial-video.webm" type="video/webm">
+  </video>
+
+  <!-- autoplay + muted: start automatically, muted for browser policy -->
+  <video autoplay muted>
+    <source src="splash-video.mp4" type="video/mp4">
+  </video>
+
+  <!-- loop attribute: repeat video endlessly -->
+  <video controls loop>
+    <source src="background-video.webm" type="video/webm">
+  </video>
+
+  <!-- muted attribute: start muted -->
+  <video controls muted>
+    <source src="silent-demo.mp4" type="video/mp4">
+  </video>
+
+  <!-- poster attribute: placeholder image before video plays -->
+  <video controls poster="video-preview.jpg">
+    <source src="product-demo.mp4" type="video/mp4">
+  </video>
+
+  <!-- width attribute: fixed width -->
+  <video controls width="800">
+    <source src="conference-talk.mp4" type="video/mp4">
+  </video>
+
+  <!-- height attribute: fixed height -->
+  <video controls height="450">
+    <source src="animation-clip.webm" type="video/webm">
+  </video>
+
+  <!-- preload attribute: prevent preloading -->
+  <video controls preload="none">
+    <source src="long-video.mp4" type="video/mp4">
+  </video>
+
+  <!-- crossorigin attribute: fetch video from external domain securely -->
+  <video controls crossorigin="use-credentials">
+    <source src="https://example.com/streamed-video.webm" type="video/webm">
+  </video>
+
+  <!-- playsinline attribute: inline playback on mobile -->
+  <video controls playsinline>
+    <source src="mobile-friendly-video.mp4" type="video/mp4">
+  </video>
+
+  <!-- disablePictureInPicture attribute: prevent PiP -->
+  <video controls disablePictureInPicture>
+    <source src="locked-video.mp4" type="video/mp4">
+  </video>
+
+  <!-- mediagroup attribute: sync video with other media -->
+  <video controls mediagroup="sync-video">
+    <source src="synced-clip.mp4" type="video/mp4">
+  </video>
+
+  <!-- ================= RESPONSIVE VIDEO ================= -->
+  <h2>Responsive Video Example</h2>
+
+  <!-- responsive design using width=100% and max-width -->
+  <video controls width="100%" style="max-width: 900px;">
+    <source src="responsive-video.mp4" type="video/mp4">
+    <source src="responsive-video.webm" type="video/webm">
+    <!-- track element for subtitles -->
+    <track src="subtitles.vtt" kind="subtitles" srclang="en" label="English">
+  </video>
+
+  <!-- ================= SCENARIOS ================= -->
+  <h2>Practical Scenarios</h2>
+
+  <!-- Background music (looping, muted, autoplay) -->
+  <audio autoplay muted loop>
+    <source src="ambient-background.mp3" type="audio/mpeg">
+    <source src="ambient-background.ogg" type="audio/ogg">
+  </audio>
+
+  <!-- Podcast player with controls and preload metadata -->
+  <audio controls preload="metadata">
+    <source src="podcast-episode-101.mp3" type="audio/mpeg">
+    <source src="podcast-episode-101.ogg" type="audio/ogg">
+  </audio>
+
+  <!-- Instructional video with poster and captions -->
+  <video controls width="640" height="360" poster="tutorial-preview.jpg">
+    <source src="coding-tutorial.mp4" type="video/mp4">
+    <source src="coding-tutorial.webm" type="video/webm">
+    <track src="tutorial-subtitles.vtt" kind="subtitles" srclang="en" label="English">
+  </video>
+
+  <!-- Mobile-friendly inline video -->
+  <video controls playsinline width="100%" style="max-width: 800px;">
+    <source src="product-ad.mp4" type="video/mp4">
+    <source src="product-ad.webm" type="video/webm">
+  </video>
+
+  <!-- Synchronized audio and video (limited support) -->
+  <video controls mediagroup="doc-sync" width="600">
+    <source src="documentary-clip.mp4" type="video/mp4">
+  </video>
+  <audio controls mediagroup="doc-sync">
+    <source src="narration-track.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Streaming video from CDN -->
+  <video controls crossorigin="anonymous" preload="metadata" width="800">
+    <source src="https://cdn.example.com/live-event.webm" type="video/webm">
+    <source src="https://cdn.example.com/live-event.mp4" type="video/mp4">
+  </video>
+
+  <!-- Locked video player (disable PiP) -->
+  <video controls disablePictureInPicture width="700" height="400">
+    <source src="lecture-video.mp4" type="video/mp4">
+    <track src="lecture-captions.vtt" kind="captions" srclang="en" label="English">
+  </video>
+</body>
+</html>
