@@ -1,4 +1,4 @@
-# Assignment 4: Understanding File States
+# Assignment 8: Understanding File States
 
 ## Learning Objective
 Learn how files move through different states in Git (untracked, modified, staged, committed) and understand how to selectively stage files.

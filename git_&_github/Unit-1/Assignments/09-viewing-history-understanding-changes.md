@@ -1,4 +1,4 @@
-# Assignment 5: Viewing History and Understanding Changes
+# Assignment 9: Viewing History and Understanding Changes
 
 ## Learning Objective
 Learn how to explore your project's history, understand what changed when, and compare different versions of your files using Git's history tools.

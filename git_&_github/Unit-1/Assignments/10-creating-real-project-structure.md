@@ -1,4 +1,4 @@
-# Assignment 6: Creating a Real Project Structure
+# Assignment 10: Creating a Real Project Structure
 
 ## Learning Objective
 Learn how to organize your codingGita project like a professional developer would, using proper folder structures and organizing files logically.
