@@ -1,4 +1,4 @@
-# 🚀 Introduction to UX
+# Introduction to UX
 
 ## **Definition**
 
@@ -200,12 +200,12 @@ Here are the core principles with practical examples:
 - Errors are inevitable—what matters is **how gracefully the system helps users recover**.  
 - Replace blame with solutions.  
   - Example:  
-    - ❌ Bad: *“No results.”*  
+    - ❌\ Bad: *“No results.”*  
     - ✅ Good: *“No results found. Try using fewer keywords.”*  
 - Good error handling builds **trust and confidence**.  
 
 
-### 🔄 **6. Testing and Iteration**
+### **6. Testing and Iteration**
 - No design is perfect the first time—**test with real users**, especially from diverse backgrounds.  
 - Small usability tests reveal big problems early.  
   - Example: Check if **first-time smartphone users** can easily navigate a form.  

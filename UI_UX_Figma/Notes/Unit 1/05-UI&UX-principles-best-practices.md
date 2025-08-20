@@ -1,4 +1,4 @@
-# 📚 UI/UX Principles and Best Practices
+# UI/UX Principles and Best Practices
 
 ## **Overview**
 
@@ -53,7 +53,7 @@ By combining strong design principles with practical best practices, designers c
 
 6. **Cultural Sensitivity**  
    - Color meanings vary by culture. In India:  
-     - **Red** = Celebration, urgency, or deals (hence Zomato, Myntra).  
+     - **Red** = Celebration, urgency, or deals.  
      - **Green** = Positivity, growth, freshness (used in Paytm UPI success).  
      - **White** = Simplicity but also mourning (avoid overuse).  
    - Global apps adapt palettes regionally—for example, Coca-Cola modifies shades in Asian campaigns to fit local symbolism.  
@@ -113,10 +113,6 @@ Color in UI/UX isn’t just about aesthetics—it’s about **psychology, access
 
 
 ## **Examples**
-- *Zomato*:
-  - **UI Principle (Consistency)**: Uniform red buttons and clean restaurant cards maintain a cohesive look across screens.
-  - **UX Principle (Simplicity)**: A 2-minute flow from search to payment with minimal steps ensures efficiency.
-  - **Outcome**: Users quickly order food on budget phones, with clear visuals and intuitive navigation.
 - *LinkedIn*:
   - **UI Principle (Clarity)**: Professional blue tones and labeled “Connect” buttons build trust.
   - **UX Principle (User-Centered Design)**: Personalized job recommendations simplify networking.
@@ -147,7 +143,7 @@ Color in UI/UX isn’t just about aesthetics—it’s about **psychology, access
 
 3. **Create a Style Guide**  
    Define colors, fonts, and button styles early to maintain consistency.  
-   *Example*: Use a brand palette (like Zomato’s signature red) across all screens.  
+   *Example*: Use a brand palette (like phonepe’s signature purple) across all screens.  
 
 4. **Map User Flows**  
    Sketch user journeys before focusing on visuals.  

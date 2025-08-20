@@ -1,4 +1,4 @@
-# ✍️ Typography in UI/UX
+# Typography in UI/UX
 
 ## **Overview**  
 **Typography in UI/UX** is the art and science of using fonts, text sizes, spacing, and alignment to create interfaces that are both visually appealing and highly functional.  
@@ -162,8 +162,6 @@ By applying typography in practice, designers transform text into a **functional
 
 
 ## **Figma Tips**
-
-Figma provides free, powerful tools to manage typography effectively and ensure readability across all devices. Here’s how to use them in practice:
 
 1. **Text Styles**  
    - Use Figma’s free *Styles* feature to define typography scales (e.g., 24px bold headings, 16px body, 14px captions).  
