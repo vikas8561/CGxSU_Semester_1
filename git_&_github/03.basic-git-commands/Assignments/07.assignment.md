@@ -1,4 +1,4 @@
-# Assignment 3: Working with Multiple Files
+# Assignment 7: Working with Multiple Files
 
 ## Learning Objective
 Learn how to create and manage multiple files in your Git project, and understand how to stage and commit multiple files at once.
