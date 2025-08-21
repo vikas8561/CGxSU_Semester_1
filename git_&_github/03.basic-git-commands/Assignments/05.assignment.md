@@ -1,4 +1,4 @@
-# Assignment 1: Your First Git Project (codingGita Learning Journal)
+# Assignment 5: Your First Git Project (codingGita Learning Journal)
 
 ## Learning Objective
 Create your first Git project and understand the basic workflow of initializing a repository, creating files, and making your first commit.
