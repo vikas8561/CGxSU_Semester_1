@@ -1,4 +1,4 @@
-# Assignment 2: Making Changes and Tracking Progress
+# Assignment 6: Making Changes and Tracking Progress
 
 ## Learning Objective
 Learn how to make changes to your files and see how Git tracks those changes, including using `git diff` to see exactly what changed.
