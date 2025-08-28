@@ -191,6 +191,3 @@ aside {
 - **Shorthand Order**: The `border` shorthand can be written in any order (e.g., `border: solid 2px black` or `border: 2px black solid`).
 - **Individual Sides**: Use `border-top`, `border-right`, `border-bottom`, or `border-left` for specific sides (e.g., `border-top: 1px solid blue`).
 - **Requirement**: `border-style` is mandatory for `border-width` and `border-color` to work.
-- **Accessibility**: Ensure borders enhance visual clarity without reducing readability, per W3Schools’ [CSS Accessibility](https://www.w3schools.com/css/css_accessibility.asp).
-- **Debugging**: Use browser developer tools to inspect and tweak border properties.
-- **Reference**: See [W3Schools CSS Border Reference](https://www.w3schools.com/cssref/pr_border.asp) for detailed property descriptions and browser compatibility.
