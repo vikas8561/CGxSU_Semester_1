@@ -10,7 +10,7 @@
 
 ---
 
-### **Relevance for Indian Users**
+### **Relevance**
 
 Designing icons and imagery for the Indian audience—especially in small towns—requires balancing **technical constraints** with **cultural resonance**. Many users rely on budget smartphones, slower networks, and localized experiences, making optimization crucial.
 
@@ -140,10 +140,7 @@ Icons and imagery are not just decorative — they are **core communication tool
 - Visuals resonate most when they **reflect users’ culture and context**.  
 - Example:  
   - Using the **₹ rupee symbol** instead of `$` builds trust in financial transactions.  
-- Locally relevant imagery boosts **user adoption and loyalty** in small towns.  
-
-### **Final Thought**
-By prioritizing **intuitive, usable, accessible, and culturally relevant visuals**, designers can bridge the gap between digital products and real-world user expectations — ensuring that even small-town Indian users on budget devices enjoy a **seamless, engaging, and relatable experience**.
+- Locally relevant imagery boosts **user adoption and loyalty** in small towns.
 
 
 ## **Examples**
@@ -214,11 +211,7 @@ Icons and imagery must be applied strategically to enhance **usability, inclusiv
 - Example:  
   - Show the **₹ rupee symbol** instead of `$` in financial apps.  
   - Use imagery of **Indian festivals, local food, or transport** instead of Western stock photos.  
-- This improves **trust, relatability, and adoption** in Indian small towns.  
-
-
-### **Final Thought**
-By focusing on **clarity, consistency, simplicity, accessibility, feedback, and cultural sensitivity**, designers can craft iconography and imagery systems that are not only **aesthetic** but also **functional, inclusive, and culturally resonant** — ensuring better UX for all users.
+- This improves **trust, relatability, and adoption** in Indian small towns.
 
 
 ---
@@ -249,16 +242,7 @@ To create intuitive and accessible interfaces, designers must apply icons and im
 - Create a **consistent visual language** for icons and imagery inside Figma.  
 - Icons: Decide on a uniform style (e.g., outline vs. filled).  
 - Imagery: Apply similar filters (e.g., vibrant, warm tones) so screens look cohesive.  
-- Example: Google Pay maintains a consistent icon style (clean outlines + familiar symbols) across its app.  
-
-
-### **4. Test for Accessibility**
-- Ensure usability for **all users**, including those with low vision or older devices.  
-- Best practices:  
-  - Maintain **contrast ratio of at least 4.5:1** between icons and background.  
-  - Add **alt text** to all images for screen reader compatibility.  
-  - Test layouts on **small devices (360px width)** to confirm visibility.  
-- Example: The **rupee (₹) icon** in UPI apps is bold and high-contrast, ensuring clarity on dim screens.  
+- Example: Google Pay maintains a consistent icon style (clean outlines + familiar symbols) across its app. 
 
 ### **5. Guide with Feedback**
 - Provide **visual responses** to user actions using icons and imagery.  
@@ -273,10 +257,6 @@ To create intuitive and accessible interfaces, designers must apply icons and im
   - Icons → replace confusing ones with simpler alternatives.  
   - Imagery → swap irrelevant stock photos for **locally relatable visuals** (e.g., Indian street food instead of burgers for a food app).  
 - Iteration ensures the final product is **usable, relatable, and user-approved**.  
-
-
-### **Final Thought**
-Applying icons and imagery in practice requires **clarity, performance optimization, accessibility, and cultural relevance**. By testing and refining visuals, designers can create **interfaces that are functional, relatable, and inclusive**, ensuring usability even on budget smartphones in small-town India.  
 
 ---
 
@@ -314,18 +294,6 @@ Below are practical tips tailored for building UIs that perform well on budget s
 - Use **free device frames** (e.g., iPhone SE, 360px width) inside Figma to preview icons and images.  
 - Ensures **legibility and usability** on small, low-resolution screens.  
 - Example: A 16px icon may look sharp on a MacBook screen but appear blurry on a budget Android phone.  
-
-
-### **6. Annotations**
-- Use **Figma’s built-in comment feature** for collaborative design feedback.  
-- Leave notes like:  
-  - “Increase icon contrast for better visibility”  
-  - “Simplify this image to load faster”  
-- Encourages **team collaboration** and ensures design quality before development.  
-
-
-### **Final Thought**
-By using **Figma’s free libraries, plugins, and device testing tools**, designers can create icons and imagery that are **clear, optimized, and culturally relevant**, ensuring apps remain usable and engaging even on budget smartphones in small-town India.  
 
 ---
 
