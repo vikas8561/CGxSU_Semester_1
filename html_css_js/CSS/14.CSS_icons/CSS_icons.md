@@ -1,4 +1,3 @@
-
 # CSS Icons
 
 CSS icons are graphical symbols used to enhance web interfaces, typically implemented using icon fonts, SVGs, or images. This guide, inspired by W3Schools, explains how to add CSS icons using Font Awesome, Bootstrap Icons, and Google Material Icons, along with web-safe icons, icon fallbacks, icon styling (size and color), and icon pairing. Each method and property includes two practical examples with explanations.
@@ -69,7 +68,7 @@ CSS icons are graphical symbols used to enhance web interfaces, typically implem
      <i class="fas fa-cloud" style="font-size: 24px; color: blue; border: 1px solid blue; padding: 5px;"></i>
    </body>
    ```
-   - **Effect**: Adds a blue 24px cloud icon using Font Awesome’s CDN, following W3Schools’ method.
+   - **Effect**: Adds a blue 24px cloud icon using Font Awesome’s CDN.
 2. **Google Material Icons via CDN**:
    ```html
    <head>
@@ -94,7 +93,7 @@ CSS icons are graphical symbols used to enhance web interfaces, typically implem
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
    <i class="far fa-envelope" style="font-size: 18px; color: purple; border: 1px solid purple; padding: 5px;"></i>
    ```
-   - **Effect**: Displays a regular (outline) purple envelope icon at 18px, following W3Schools’ example.
+   - **Effect**: Displays a regular (outline) purple envelope icon at 18px.
 
 ### Bootstrap Icons
 - **Explanation**: Use Bootstrap Icons’ CDN or Glyphicons (Bootstrap 3) with `<i>` and `bi` or `glyphicon` classes, or embed SVGs.
@@ -103,13 +102,13 @@ CSS icons are graphical symbols used to enhance web interfaces, typically implem
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
    <i class="glyphicon glyphicon-cloud" style="font-size: 24px; color: blue; border: 1px solid blue; padding: 5px;"></i>
    ```
-   - **Effect**: Renders a blue 24px cloud Glyphicon, as shown in W3Schools for Bootstrap 3.
+   - **Effect**: Renders a blue 24px cloud Glyphicon.
 2. **Bootstrap Icons Alarm**:
    ```html
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
    <i class="bi bi-alarm" style="font-size: 20px; color: red; border: 1px solid red; padding: 5px;"></i>
    ```
-   - **Effect**: Displays a red 20px alarm icon using modern Bootstrap Icons, per W3Schools’ guidance.
+   - **Effect**: Displays a red 20px alarm icon using modern Bootstrap Icons.
 
 ### Google Material Icons
 - **Explanation**: Include Google’s Material Icons CDN and use `<i>` with the `material-icons` class and icon name.
@@ -118,30 +117,30 @@ CSS icons are graphical symbols used to enhance web interfaces, typically implem
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <i class="material-icons" style="font-size: 22px; color: teal; border: 1px solid teal; padding: 5px;">cloud</i>
    ```
-   - **Effect**: Shows a teal 22px cloud icon, styled as per W3Schools’ Material Icons tutorial.
+   - **Effect**: Shows a teal 22px cloud icon.
 2. **Material Favorite Icon**:
    ```html
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <i class="material-icons" style="font-size: 18px; color: pink; border: 1px solid pink; padding: 5px;">favorite</i>
    ```
-   - **Effect**: Renders a pink 18px heart icon, following W3Schools’ example.
+   - **Effect**: Renders a pink 18px heart icon.
 
 ### Web-Safe Icons
-- **Explanation**: Uses Unicode characters in standard fonts for simple, dependency-free icons, as noted by W3Schools.
+- **Explanation**: Uses Unicode characters in standard fonts for simple, dependency-free icons.
 1. **Unicode Checkmark**:
    ```html
    <p style="font-family: Arial, sans-serif; font-size: 16px; color: green; border: 1px solid green; padding: 5px;">
      &check; Task Done
    </p>
    ```
-   - **Effect**: Displays a green checkmark (`✔`) in Arial, reliable across devices, per W3Schools.
+   - **Effect**: Displays a green checkmark (`✔`) in Arial, reliable across devices.
 2. **Unicode Arrow**:
    ```html
    <p style="font-family: 'Times New Roman', serif; font-size: 16px; color: navy; border: 1px solid navy; padding: 5px;">
      &rarr; Continue
    </p>
    ```
-   - **Effect**: Shows a right arrow (`→`) in Times New Roman, a web-safe icon, as per W3Schools.
+   - **Effect**: Shows a right arrow (`→`) in Times New Roman, a web-safe icon.
 
 ### Icon Fallbacks
 - **Explanation**: Provides text or Unicode backups if icon fonts fail to load, ensuring reliability.
@@ -165,22 +164,22 @@ CSS icons are graphical symbols used to enhance web interfaces, typically implem
    - **Effect**: Displays a purple thumbs-up icon; if Material Icons fails, a Unicode arrow (`↑`) appears.
 
 ### Icon Styling (Size and Color)
-- **Explanation**: Styles icon fonts with `font-size` and `color` for visual consistency, as shown in W3Schools.
+- **Explanation**: Styles icon fonts with `font-size` and `color` for visual consistency.
 1. **Large Blue Icon**:
    ```html
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
    <i class="fas fa-cloud" style="font-size: 28px; color: blue; border: 1px solid blue; padding: 5px;"></i>
    ```
-   - **Effect**: A large blue cloud icon at 28px, styled like text, per W3Schools.
+   - **Effect**: A large blue cloud icon at 28px.
 2. **Small Red Icon**:
    ```html
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <i class="material-icons" style="font-size: 16px; color: red; border: 1px solid red; padding: 5px;">delete</i>
    ```
-   - **Effect**: A small red delete icon at 16px, following W3Schools’ styling approach.
+   - **Effect**: A small red delete icon at 16px.
 
 ### Icon Pairing
-- **Explanation**: Combines icons with text for clear, functional UI elements, per W3Schools’ examples.
+- **Explanation**: Combines icons with text for clear, functional UI elements.
 1. **Font Awesome with Button**:
    ```html
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -188,7 +187,7 @@ CSS icons are graphical symbols used to enhance web interfaces, typically implem
      <i class="fas fa-download" style="font-size: 18px; margin-right: 5px;"></i> Download
    </button>
    ```
-   - **Effect**: Pairs a download icon with “Download” text in Arial, enhancing clarity, per W3Schools.
+   - **Effect**: Pairs a download icon with “Download” text in Arial, enhancing clarity.
 2. **Bootstrap Icon with Heading**:
    ```html
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
