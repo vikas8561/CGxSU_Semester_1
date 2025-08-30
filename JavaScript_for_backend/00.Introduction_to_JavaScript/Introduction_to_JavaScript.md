@@ -161,5 +161,37 @@ console.log("Hello JavaScript!");
 </html>
 ```
 
+### c) External JavaScript File
+
+You can also write JavaScript in a separate file (with .js extension) and link it to your HTML file using the `<script src="filename.js"></script>` tag.
+
+**Step 1: Create a JavaScript file (e.g., script.js)**
+```javascript
+// script.js
+alert("Hello from external JavaScript file!");
+console.log("This message appears in the browser console");
+```
+
+**Step 2: Link it in your HTML file**
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>External JS Example</title>
+  </head>
+  <body>
+    <h1>Welcome to External JavaScript</h1>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
+
+**Benefits of external JavaScript:**
+- Keeps HTML clean and organized
+- JavaScript code can be reused across multiple HTML pages
+- Easier to maintain and debug
+- Better performance (browser can cache external files)
+
+
 ---
 
